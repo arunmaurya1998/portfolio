@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    border: 0px solid black;
+    margin: auto;
+    width: 80%;
+}
+
+#header {
+    border: 0px solid red;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#self-img {
+    height: 350px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 50%; 
+}
+
+.header-child {
+    height: 40px;
+    border: 0px solid green;
+    margin-top: 15px;
+}
+
+.header-child > a {
+    margin-left: 3%;
+    color: white;
+}
+
+#home-section {
+    border: 0px solid red;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-section-child {
+    border: 0px solid green;
+    width: 48%;
+}
+
+button {
+    background-color: rgb(49, 49, 204);
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button > a {
+    color: white;
+}
+
+.home-section-child > div > a > img {
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#about {
+    border: 0px solid red;
+    text-align: center;
+    padding: 50px 10%; 
+    line-height: 25px;
+}
+
+#skills {
+    border: 0px solid red;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#skills-container {
+    width: 80%; 
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.skills-container-child > img {
+    height: 80px;
+    margin-top: 20px;
+}
+
+#projects {
+    border: 0px solid red;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.projects-child {
+    border: 0px solid green;
+    margin: 50px 5%;
+    background-color: rgb(244, 243, 242);
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-child-of-child {
+    border: 0px solid black;
+    text-align: start;
+}
+
+.projects-child-of-child > img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#footer {
+    border: 0px solid red;
+    height: 200px;
+    background-color: rgb(109, 109, 166);
+    color: white;
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.contact {
+    border: 1px solid white;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact > a {
+    color: white;
+}
